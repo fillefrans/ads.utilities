@@ -1,0 +1,299 @@
+/*
+ * HTML5 ✰ Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ *
+ * Detailed information about this CSS: h5bp.com/css
+ *
+ * ==|== normalize ==========================================================
+ */
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/* =============================================================================
+   Base
+   ========================================================================== */
+   
+	body {
+	   height: 100%;
+	}
+	body, #mainpage, body.ui-body-c, body.ui-overlay-c {
+		background: none; /* Reset background color */
+	}
+	.ui-btn-inner {
+		padding: .6em 15px;
+	}
+	/*.inner {
+	   max-width: 320px;
+	   margin: 0 auto;
+	}*/
+	
+	/* Easy to use classes */
+	
+	.left {
+		float: left;
+		display: inline;
+	}
+	.right {
+		float: right;
+		display: inline;
+	}
+		img.left { margin: 5px 20px 10px 0; }
+		img.right { margin: 5px 0 10px 20px; }
+
+	.clear {
+		clear: both;
+	}
+	.clearfix {
+		display: inline-block;
+	} 
+		.clearfix:after {
+			content: ".";
+			display: block;
+			clear: both;
+			visibility: hidden;
+			line-height: 0;
+			height: 0;
+		}
+		html[xmlns] .clearfix {
+			display: block;
+		}
+		* html .clearfix {
+			height: 1%;
+		}
+   
+/* =============================================================================
+   Links
+   ========================================================================== */
+   
+	a.ui-link,
+	a.ui-link:link,
+	a.ui-link:visited {
+		color: green;
+	}
+		a.ui-link:hover,
+		a.ui-link:visited:hover,
+		a.ui-link:active,
+		a.ui-link:focus {
+			color: lightblue !important;
+			text-decoration: underline;
+		}
+   
+/* =============================================================================
+   Typography
+   ========================================================================== */
+   
+   /*  Want to use a custom font check out the below websites
+	   http://www.fontsquirrel.com
+	   http://www.google.com/webfonts/
+   */
+   
+	body {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 0.9em;
+		line-height: 20px;
+		color: #727272;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		color: #000;
+		margin-bottom: 10px;
+	}
+		h1 { font-size: 1.5em }
+		h2 { font-size: 1.4em }
+		h3 { font-size: 1.3em }
+		h4 { font-size: 1.2em }
+		h5 { font-size: 1.1em }
+		h6 { font-size: 1.0em }
+	p { }
+	blockquote {
+		font-style: italic;
+	}
+	.small {
+		font-size: 0.9em
+	}
+	.big {
+		font-size: 1.2em
+	}
+
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * 1. Improve image quality when scaled in IE7: h5bp.com/d
+ * 2. Remove the gap between images and borders on image containers: h5bp.com/e
+ */
+/*
+ * Correct overflow not hidden in IE9
+ */
+/* =============================================================================
+   Figures
+   ========================================================================== */
+/* =============================================================================
+   Forms
+   ========================================================================== */
+/* =============================================================================
+   Tables
+   ========================================================================== */
+/* ==|== primary styles =====================================================
+   Author: Kroma Robin & Eduardo
+   ========================================================================== */
+
+/* jQuery Mobile over rides of css
+    Here you put the background settings for the pages, like body
+*/
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+   
+.header {
+	height: 100px;
+	text-align: center;
+	clear: both;
+}
+	.header a {
+		display: block;
+	}
+	.header img.logo {
+		margin-top: 30px;
+	}
+	.header img.logo.small {
+		width: 70px;
+	}
+
+
+/* =============================================================================
+   Maincontent
+   ========================================================================== */
+
+.maincontent {
+    text-shadow: none;
+}
+    .maincontent article {
+    	text-align: center;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+    }
+    .maincontent article img {
+    	max-width: 100%;
+    }
+    .maincontent article video {
+    	width: 100%;
+    	max-width: 400px;
+    	margin: 0;
+    	padding: 0;
+    }
+ 
+ 
+ /* =============================================================================
+    Links
+    ========================================================================== */
+ 
+.links {
+    padding: 0 0 10px;
+    overflow: hidden;
+}
+	.links nav {
+		width: 250px; /* To center a list you have to define width */
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+
+/* =============================================================================
+   Footer
+   ========================================================================== */
+   
+.footer {
+	text-align: center;
+	text-shadow: none;
+	padding: 0;
+}
+	.footer footer {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+
+/* =============================================================================
+   Tilbake
+   ========================================================================== */
+   
+.tilbake {
+	width: 100%;
+	text-align: center;
+	text-shadow: none;
+	background: #000;
+	margin-top: 150px;
+	padding: 0;
+}
+
+
+/* =============================================================================
+   Media quries
+   ========================================================================== */
+   
+/*
+ * Media queries for responsive design github.com/h5bp/mobile-boilerplate/wiki/The-Style
+ */
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) { 
+    
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) { 
+    
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) { 
+    
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 481px) { 
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 480px) { 
+    .header { height: 80px; }
+    .header img.logo { margin-top: 25px; }
+}
+/* iPhone 4, Opera Mobile 11 and other high pixel ratio devices
+   Portrait ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation:portrait), only screen and (-o-min-device-pixel-ratio: 3/2) and (orientation:portrait), only screen and (min--moz-device-pixel-ratio: 1.5) and (orientation:portrait), only screen and (min-device-pixel-ratio: 1.5) and (orientation:portrait) {
+
+}
+/* iPhone 4, Opera Mobile 11 and other high pixel ratio devices
+   Landscape ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (-o-min-device-pixel-ratio: 3/2) and (orientation:landscape), only screen and (min--moz-device-pixel-ratio: 1.5) and (orientation:landscape), only screen and (min-device-pixel-ratio: 1.5) and (orientation:landscape) {
+	.header { height: 80px; }
+	.header img.logo { margin-top: 25px; }
+}
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print { 
+    * {
+        background: transparent !important;
+        color: black !important;
+        text-shadow: none !important;
+        filter: none !important;
+        -ms-filter: none !important;
+    }
+    /* Black prints faster: h5bp.com/s */
+    a, a:visited { text-decoration: underline }
+    a[href]:after { content: " (" attr(href) ")" }
+    abbr[title]:after { content: " (" attr(title) ")" }
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: "" }
+    /* Don't show links for images, or javascript/internal links */
+    pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+    thead { display: table-header-group }
+    /* h5bp.com/t */
+    tr, img { page-break-inside: avoid }
+    img { max-width: 100% !important }
+}

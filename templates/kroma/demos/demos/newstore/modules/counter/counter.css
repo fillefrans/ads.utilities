@@ -1,0 +1,56 @@
+#defaultCountdown {
+    width: 260px;
+    height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+}
+    #defaultCountdown .countdown_section {
+        position: relative;
+        width: 50px;
+        font-size: 11px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 -1px 1px rgba(0,0,0,1); /* drop shadow */
+        margin-right: 20px;
+        padding-top: 8px;
+        padding-bottom: 3px;
+        float: left;
+        display: block; /* gradient overlay */
+        background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMjUlIiB4Mj0iNTAlIiB5Mj0iLTI1JSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMxZDFkMWQiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjM1JSIgc3RvcC1jb2xvcj0iIzQ3NDc0NyIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzUzNTM1MyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient overlay */
+        background-image: -moz-linear-gradient(90deg, #1d1d1d -25%, #474747 28.25%, #535353 125%); /* gradient overlay */
+        background-image: -o-linear-gradient(90deg, #1d1d1d -25%, #474747 28.25%, #535353 125%); /* gradient overlay */
+        background-image: -webkit-linear-gradient(90deg, #1d1d1d -25%, #474747 28.25%, #535353 125%); /* gradient overlay */
+        background-image: linear-gradient(90deg, #1d1d1d -25%, #474747 28.25%, #535353 125%); /* gradient overlay */
+        -moz-border-radius: 8px; /* from vector shape */
+        -webkit-border-radius: 8px; /* from vector shape */
+        border-radius: 8px; /* from vector shape */
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box; /* prevents bg color from leaking outside the border */
+        background-color: #000; /* layer fill content */
+        -moz-box-shadow: 0 1px 2px #000; /* drop shadow */
+        -webkit-box-shadow: 0 1px 2px #000; /* drop shadow */
+        box-shadow: 0 1px 2px #000; /* drop shadow */
+    }
+    #defaultCountdown .countdown_section::after {
+        position: absolute;
+        top: 5px;
+        left: 50px;
+        width: 20px;
+        height: 50px;
+        content: " ";
+        background: url('counter-dots.png') no-repeat right center;
+        background-size: 20px;
+        display: block;
+    }
+    #defaultCountdown .countdown_section:last-child {
+        margin-right: 0
+    }
+    #defaultCountdown .countdown_section:last-child::after {
+        display: none
+    }
+    #defaultCountdown .countdown_amount {
+        font-size: 22px;
+        margin: 0;
+    }
