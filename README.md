@@ -33,8 +33,8 @@ Collect examples and demos in a git repository.
 jQuery, jQuery Mobile, wrapper scripts for native hardware access
 
 ###jQuery Plugins
-* [http://teamddm.com/articles/jscroll-an-iscroll-plugin-for-jquery](jScroll: An iScroll Plugin for jQuery)
-* [https://github.com/blueimp/jQuery-File-Upload](blueimp jQuery File Uploader)
+* (jScroll: An iScroll Plugin for jQuery)[http://teamddm.com/articles/jscroll-an-iscroll-plugin-for-jquery]
+* (blueimp jQuery File Uploader)[https://github.com/blueimp/jQuery-File-Upload]
 
 
 
@@ -57,38 +57,42 @@ We want to be able to extend this object for special functionality and custom ha
 ##Resources
 ----------------------------
 
-*[http://html5boilerplate.com/mobile/](HTML5 Boilerplate - Mobile)
+###tools
+*[Google PageSpeed](https://developers.google.com/speed/pagespeed/)
+*[HTML5 Boilerplate - Mobile](http://html5boilerplate.com/mobile/)
+*[Charles Web Debugging Proxy - Windows/Mac/Linux](http://www.charlesproxy.com/)
+*[Google Developers - Web Performance Best Practices](https://developers.google.com/speed/docs/best-practices/)
+*[Viewport resizer - Responsive design bookmarklet](http://lab.maltewassermann.com/viewport-resizer/)
+*[Can I use - HTML5 browser support](http://caniuse.com)
+*[git-flow - A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model](https://github.com/nvie/gitflow)
 
 ###docs
-[http://docs.phonegap.com/en/2.5.0/index.html](PhoneGap API documentation)
-[http://dev.w3.org/geo/api/spec-source-orientation.html#devicemotion](DeviceMotion W3 Specification)
-[http://api.jquerymobile.com/](jQuery Mobile API Documentation)
-[http://en.wikipedia.org/wiki/HTML5_in_mobile_devices#Differences_from_Native_Apps_and_Mobile_Web_Apps](Differences between Native Apps and Mobile Web Apps)
+[PhoneGap API documentation](http://docs.phonegap.com/en/2.5.0/index.html)
+[DeviceMotion W3 Specification](http://dev.w3.org/geo/api/spec-source-orientation.html#devicemotion)
+[jQuery Mobile API Documentation](http://api.jquerymobile.com/)
+[Differences between Native Apps and Mobile Web Apps](http://en.wikipedia.org/wiki/HTML5_in_mobile_devices#Differences_from_Native_Apps_and_Mobile_Web_Apps)
 
 ###examples
-[http://isthisanearthquake.com/seismograph.html](seismograph.js - WebKit DeviceMotion / MozDeviceOrientation example)
-[http://www.mobilexweb.com/blog/android-froyo-html5-accelerometer-flash-player](Accessing Accelerometer on Flash/Android 2.2 - example)
-[http://www.mobilexweb.com/samples/ball.html](PhoneGap accelerometer example)
+[seismograph.js - WebKit DeviceMotion / MozDeviceOrientation example](http://isthisanearthquake.com/seismograph.html)
+[Accessing Accelerometer on Flash/Android 2.2 - example](http://www.mobilexweb.com/blog/android-froyo-html5-accelerometer-flash-player)
+[PhoneGap accelerometer example](http://www.mobilexweb.com/samples/ball.html)
 
 
 ###HTML5 Demos
-[http://www.sencha.com/products/touch/demos/](Sencha Touch demos)
-[http://www.apple.com/html5/](Apple HTML5 demos)
-[http://www.chromeexperiments.com/](Chrome Experiments)
+[Sencha Touch demos](http://www.sencha.com/products/touch/demos/)
+[Apple HTML5 demos](http://www.apple.com/html5/)
+[Chrome Experiments](http://www.chromeexperiments.com/)
 
 ###tricks & fixes
-[http://stackoverflow.com/questions/1649086/detect-rotation-of-android-phone-in-the-browser-with-javascript](Detect rotation of Android phone in the browser with javascript)
-[http://stackoverflow.com/questions/4378435/how-to-access-accelerometer-gyroscope-data-from-javascript/4378439](How to access accelerometer/gyroscope data from Javascript?)
-[http://lab.maltewassermann.com/viewport-resizer/](Viewport resizer - Responsive design bookmarklet)
-[http://caniuse.com](Can I use - HTML5 browser support summaries)
-[https://github.com/nvie/gitflow](A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model)
-[http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/](How to use git-flow)
-[http://www.blog.highub.com/mobile-2/a-fix-for-iphone-viewport-scale-bug/](A fix for the iPhone ViewPort scale bug)
-[http://www.slideshare.net/esrinederland/building-mobile-apps-with-the-arcgis-api-for-javascript-esri-andy-gup-and-antoon-uijtdehaag](Building mobile apps with the ArcGIS api for Javascript)
+[Detect rotation of Android phone in the browser with javascript](http://stackoverflow.com/questions/1649086/detect-rotation-of-android-phone-in-the-browser-with-javascript)
+[How to access accelerometer/gyroscope data from Javascript?](http://stackoverflow.com/questions/4378435/how-to-access-accelerometer-gyroscope-data-from-javascript/4378439)
+[How to use git-flow](http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/)
+[A fix for the iPhone ViewPort scale bug](http://www.blog.highub.com/mobile-2/a-fix-for-iphone-viewport-scale-bug/)
+[Building mobile apps with the ArcGIS api for Javascript](http://www.slideshare.net/esrinederland/building-mobile-apps-with-the-arcgis-api-for-javascript-esri-andy-gup-and-antoon-uijtdehaag)
 
 
 
 ###Device support
-[http://caniuse.com/#feat=deviceorientation](caniuse - DeviceOrientation API)
-[http://caniuse.com/#feat=geolocation](caniuse - GeoLocation API)
-[http://caniuse.com/#feat=cors](caniuse - CORS (Cross-Origin Resource Sharing))
+[caniuse - DeviceOrientation API](http://caniuse.com/#feat=deviceorientation)
+[caniuse - GeoLocation API](http://caniuse.com/#feat=geolocation)
+[caniuse - CORS (Cross-Origin Resource Sharing)](http://caniuse.com/#feat=cors)
