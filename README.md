@@ -47,8 +47,10 @@ Collect examples and demos in a git repository. Use shared assets where possible
 
 ##Technologies
 
-jQuery, jQuery Mobile, wrapper scripts for native hardware access
-PHP
+jQuery  
+jQuery Mobile  
+Wrapper scripts for native hardware access  
+PHP  
 
 ###jQuery Plugins
 * [jScroll: An iScroll Plugin for jQuery](http://teamddm.com/articles/jscroll-an-iscroll-plugin-for-jquery)
@@ -122,7 +124,7 @@ We want to be able to extend this object for special functionality and custom ha
 [How to access accelerometer/gyroscope data from Javascript?](http://stackoverflow.com/questions/4378435/how-to-access-accelerometer-gyroscope-data-from-javascript/4378439)  
 [How to use git-flow](http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/)  
 [A fix for the iPhone ViewPort scale bug](http://www.blog.highub.com/mobile-2/a-fix-for-iphone-viewport-scale-bug/)  
-[Building mobile apps with the ArcGIS api for Javascript](http://www.slideshare.net/esrinederland/building-mobile-apps-with-the-arcgis-api-for-javascript-esri-andy-gup-and-antoon-uijtdehaag)  
+
 
 ###Snippets
 ####Detect mobile user agent with regex:
