@@ -58,30 +58,30 @@ We want to be able to extend this object for special functionality and custom ha
 
 
 ###tools
-[Google PageSpeed](https://developers.google.com/speed/pagespeed/)
-[mod_pagespeed - Apache module for automatic mobile optimization](https://developers.google.com/speed/pagespeed/mod)
-[mod_spdy - Apache SPDY module](http://code.google.com/p/mod-spdy/)
-[HTML5 Boilerplate - Mobile](http://html5boilerplate.com/mobile/)
-[Charles Web Debugging Proxy - Windows/Mac/Linux](http://www.charlesproxy.com/)
-[Google Developers - Web Performance Best Practices](https://developers.google.com/speed/docs/best-practices/)
-[Can I use - HTML5 browser support](http://caniuse.com)
-[git-flow - A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model](https://github.com/nvie/gitflow)
+[Google PageSpeed](https://developers.google.com/speed/pagespeed/) 
+[mod_pagespeed - Apache module for automatic mobile optimization](https://developers.google.com/speed/pagespeed/mod) 
+[mod_spdy - Apache SPDY module](http://code.google.com/p/mod-spdy/) 
+[HTML5 Boilerplate - Mobile](http://html5boilerplate.com/mobile/) 
+[Charles Web Debugging Proxy - Windows/Mac/Linux](http://www.charlesproxy.com/) 
+[Google Developers - Web Performance Best Practices](https://developers.google.com/speed/docs/best-practices/) 
+[Can I use - HTML5 browser support](http://caniuse.com) 
+[git-flow - A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model](https://github.com/nvie/gitflow) 
 
 
 ###reports & best practices
-[More Bandwidth Doesn’t Matter (much)](http://www.belshe.com/2010/05/24/more-bandwidth-doesnt-matter-much/)
-[Make your mobile pages render in under one second](http://calendar.perfplanet.com/2012/make-your-mobile-pages-render-in-under-one-second/)
+[More Bandwidth Doesn’t Matter (much)](http://www.belshe.com/2010/05/24/more-bandwidth-doesnt-matter-much/) 
+[Make your mobile pages render in under one second](http://calendar.perfplanet.com/2012/make-your-mobile-pages-render-in-under-one-second/) 
 
 
 ###testing & debugging
-[Using the Android Emulator](http://developer.android.com/tools/devices/emulator.html)
-[Viewport resizer - Responsive design bookmarklet](http://lab.maltewassermann.com/viewport-resizer/)
+[Using the Android Emulator](http://developer.android.com/tools/devices/emulator.html) 
+[Viewport resizer - Responsive design bookmarklet](http://lab.maltewassermann.com/viewport-resizer/) 
 
 
 ###docs
-[iOS Dev Center](https://developer.apple.com/devcenter/ios/index.action)
-[PhoneGap API documentation](http://docs.phonegap.com/en/2.5.0/index.html)
-[DeviceMotion W3 Specification](http://dev.w3.org/geo/api/spec-source-orientation.html#devicemotion)
+[iOS Dev Center](https://developer.apple.com/devcenter/ios/index.action) 
+[PhoneGap API documentation](http://docs.phonegap.com/en/2.5.0/index.html) 
+[DeviceMotion W3 Specification](http://dev.w3.org/geo/api/spec-source-orientation.html#devicemotion) 
 [jQuery Mobile API Documentation](http://api.jquerymobile.com/)
 [Differences between Native Apps and Mobile Web Apps](http://en.wikipedia.org/wiki/HTML5_in_mobile_devices#Differences_from_Native_Apps_and_Mobile_Web_Apps)
 
