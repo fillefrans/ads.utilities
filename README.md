@@ -26,7 +26,7 @@ Collect examples and demos in a git repository. Use shared assets where possible
 * WebKit + Firefox
 * IE 10 (?) on Windows Phone 8
 
-
+<code>
     Følgende enheter må være støttet fullt ut:
     Android v4.0 og nyere, i webkit-baserte browsers
     iOS v5.1 og nyere, i webkit-baserte browsers
@@ -34,10 +34,10 @@ Collect examples and demos in a git repository. Use shared assets where possible
     Øvrige operativsystemer og browsers vil motta
     fallback-annonse. 
      
-     
     Annonsevekter: 
     Max kb. Mobil 125
     Max kb. Tablet 150 
+</code>     
  
 
 
@@ -128,8 +128,8 @@ We want to be able to extend this object for special functionality and custom ha
 ####Detect mobile user agent with regex:
     var isMobile = /ip(hone|od|ad)|android|blackberry.*applewebkit|bb1\d.*mobile/i.test(navigator.userAgent);
 
----
-####Speed up DOM manipulation woith DocumentFragment:
+
+####Speed up DOM manipulation with DocumentFragment:
     var div = document.getElementsByTagName("div");
      
     var fragment = document.createDocumentFragment();
