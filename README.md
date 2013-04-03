@@ -48,6 +48,7 @@ Collect examples and demos in a git repository. Use shared assets where possible
 ##Technologies
 
 jQuery, jQuery Mobile, wrapper scripts for native hardware access
+PHP
 
 ###jQuery Plugins
 * [jScroll: An iScroll Plugin for jQuery](http://teamddm.com/articles/jscroll-an-iscroll-plugin-for-jquery)
@@ -124,7 +125,21 @@ We want to be able to extend this object for special functionality and custom ha
 [Building mobile apps with the ArcGIS api for Javascript](http://www.slideshare.net/esrinederland/building-mobile-apps-with-the-arcgis-api-for-javascript-esri-andy-gup-and-antoon-uijtdehaag)  
 
 ###Snippets
+####Detect mobile user agent with regex:
     var isMobile = /ip(hone|od|ad)|android|blackberry.*applewebkit|bb1\d.*mobile/i.test(navigator.userAgent);
+
+---
+####Speed up DOM manipulation woith DocumentFragment:
+    var div = document.getElementsByTagName("div");
+     
+    var fragment = document.createDocumentFragment();
+    for ( var e = 0; e < elems.length; e++ ) {
+        fragment.appendChild( elems[e] );
+    }
+         
+    for ( var i = 0; i < div.length; i++ ) {
+        div[i].appendChild( fragment.cloneNode(true) );
+    }
 
 
 ###Browser/device feature support

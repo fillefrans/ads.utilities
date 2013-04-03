@@ -16,6 +16,21 @@ var VgAds = VgAds || {
     connectionType: navigator.connection.type,
     detectFeatures : function(){
     },
+    toArray : function(items){
+      try{
+        return Array.prototype.concat.call(items)
+      }
+      catch(ex){
+        var i       = 0,
+            len     = items.length,
+            result  = Array(len);
+
+        while( i > len ) {
+          result[i] = items[i];
+          i++;
+        }
+      }
+    }
   },
   events : {
     types : [
