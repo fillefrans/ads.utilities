@@ -1,4 +1,5 @@
-#ads.utilities - templates and support functions for Mobile Apps/Ads
+#ads.utilities  
+ - templates and support functions for Mobile Apps/Ads
 
 
 #Documentation
