@@ -5,7 +5,7 @@
  * Utility JavaScript Object for mobile ads / VG Mobil
  *
  * @author Johan Telstad, jt@kroma.no, 2013
- * 
+ *
  */
 
 
