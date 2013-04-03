@@ -105,6 +105,10 @@ We want to be able to extend this object for special functionality and custom ha
 [A fix for the iPhone ViewPort scale bug](http://www.blog.highub.com/mobile-2/a-fix-for-iphone-viewport-scale-bug/)
 [Building mobile apps with the ArcGIS api for Javascript](http://www.slideshare.net/esrinederland/building-mobile-apps-with-the-arcgis-api-for-javascript-esri-andy-gup-and-antoon-uijtdehaag)
 
+###Snippets
+    var isMobile = /ip(hone|od|ad)|android|blackberry.*applewebkit|bb1\d.*mobile/i.test(navigator.userAgent);
+
+
 
 ###Device support
 [caniuse - DeviceOrientation API](http://caniuse.com/#feat=deviceorientation)
