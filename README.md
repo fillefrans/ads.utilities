@@ -33,8 +33,8 @@ Collect examples and demos in a git repository.
 jQuery, jQuery Mobile, wrapper scripts for native hardware access
 
 ###jQuery Plugins
-* (jScroll: An iScroll Plugin for jQuery)[http://teamddm.com/articles/jscroll-an-iscroll-plugin-for-jquery]
-* (blueimp jQuery File Uploader)[https://github.com/blueimp/jQuery-File-Upload]
+* [jScroll: An iScroll Plugin for jQuery](http://teamddm.com/articles/jscroll-an-iscroll-plugin-for-jquery)
+* [blueimp jQuery File Uploader](https://github.com/blueimp/jQuery-File-Upload)
 
 
 
@@ -58,14 +58,14 @@ We want to be able to extend this object for special functionality and custom ha
 
 
 ###tools
-[Google PageSpeed](https://developers.google.com/speed/pagespeed/) 
-[mod_pagespeed - Apache module for automatic mobile optimization](https://developers.google.com/speed/pagespeed/mod) 
-[mod_spdy - Apache SPDY module](http://code.google.com/p/mod-spdy/) 
-[HTML5 Boilerplate - Mobile](http://html5boilerplate.com/mobile/) 
-[Charles Web Debugging Proxy - Windows/Mac/Linux](http://www.charlesproxy.com/) 
-[Google Developers - Web Performance Best Practices](https://developers.google.com/speed/docs/best-practices/) 
-[Can I use - HTML5 browser support](http://caniuse.com) 
-[git-flow - A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model](https://github.com/nvie/gitflow) 
+ [Google PageSpeed](https://developers.google.com/speed/pagespeed/) 
+ [mod_pagespeed - Apache module for automatic mobile optimization](https://developers.google.com/speed/pagespeed/mod) 
+ [mod_spdy - Apache SPDY module](http://code.google.com/p/mod-spdy/) 
+ [HTML5 Boilerplate - Mobile](http://html5boilerplate.com/mobile/) 
+ [Charles Web Debugging Proxy - Windows/Mac/Linux](http://www.charlesproxy.com/) 
+ [Google Developers - Web Performance Best Practices](https://developers.google.com/speed/docs/best-practices/) 
+ [Can I use - HTML5 browser support](http://caniuse.com) 
+ [git-flow - A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model](https://github.com/nvie/gitflow) 
 
 
 ###reports & best practices
