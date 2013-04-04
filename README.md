@@ -7,17 +7,27 @@ Templates and support functions for Mobile ads/landing pages
 
 ##Mission
 
-To create a HTML5/CSS/JS template/scaffolding that can serve as a starting point for Ads and Landing Pages.
+To create a HTML5/CSS/JS template/scaffolding that can serve as a starting point for Ads and Landing Pages. Incorporate mobile optimized services accessible to creatives.
 Collect examples and demos in a git repository. Use shared assets where possible.
 
+
+##Use cases
+
+?
+
+---
 
 ##Requirements
 * Responsive design
 * Feature detection
 * Optimized for Mobile
+* Optimized server/cache setup
 * Cross-browser
 * Cross-device support (See Target Platforms, below)
 * If possible, generic access to a subset of native resources from JavaScript, such as accelerometer, camera, geolocation
+* Make allowances for future additions, i.e.
+* Easy to copy a template and start adapting it
+*
 
 
 ##Target Platforms
@@ -52,6 +62,7 @@ Collect examples and demos in a git repository. Use shared assets where possible
 * jQuery Mobile
 * Wrapper scripts for native hardware access
 * PHP
+* [Vagrant](http://docs.vagrantup.com/v2/why-vagrant/index.html)
 
 
 
@@ -75,7 +86,7 @@ We want to be able to extend this object for special functionality and custom ha
 * Files larger than 32KB are not cached on iPhone
 * Don't define functions more than once
 * Avoid DOM manipulation as far as possible
-* avoid jQuery's built-in PubSub for high-frequency events, as it relies on the DOM for callbacks
+* avoid jQuery's built-in PubSub for high-frequency events, as it relies on the DOM for callbacks (and see also [this](http://jsperf.com/pubsubjs-vs-jquery-custom-events/37))
 
 
 
@@ -84,18 +95,21 @@ We want to be able to extend this object for special functionality and custom ha
 
 
 ###Tools
+* [LiveReload - Chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
 * [Google PageSpeed](https://developers.google.com/speed/pagespeed/)
 * [mod_pagespeed - Apache module for automatic mobile optimization](https://developers.google.com/speed/pagespeed/mod)
-* [mod_spdy - Apache SPDY module](http://code.google.com/p/mod-spdy/)
+* [mod_spdy - Apache SPDY module](http://code.google.com/p/mod-spdy/) -> [browser support](http://caniuse.com/spdy/)
 * [HTML5 Boilerplate - Mobile](http://html5boilerplate.com/mobile/)
 * [Charles Web Debugging Proxy - Windows/Mac/Linux](http://www.charlesproxy.com/)
 * [Google Developers - Web Performance Best Practices](https://developers.google.com/speed/docs/best-practices/)
-* [Can I use - HTML5 browser support](http://caniuse.com)
+* [CanIuse.com - HTML5 browser support by feature](http://caniuse.com)
 * [git-flow - A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model](https://github.com/nvie/gitflow)
 * [jsPerf — JavaScript performance playground](http://jsperf.com/)
+* [Chocolatey - a package manager for Windows](http://chocolatey.org/)
 
 
 ###Reports & best practices
+* [Apache config for HTML5 Mobile Boilerplate ](https://github.com/h5bp/server-configs/tree/master/apache)
 * [jQuery vs Zepto vs jQMobi - which one is the fastest?](http://www.codefessions.com/2012/08/performance-of-jquery-compatible-mobile.html)
 * [More Bandwidth Doesn’t Matter (much)](http://www.belshe.com/2010/05/24/more-bandwidth-doesnt-matter-much/)
 * [Make your mobile pages render in under one second](http://calendar.perfplanet.com/2012/make-your-mobile-pages-render-in-under-one-second/)
@@ -120,6 +134,11 @@ We want to be able to extend this object for special functionality and custom ha
 * [seismograph.js - WebKit DeviceMotion / MozDeviceOrientation example](http://isthisanearthquake.com/seismograph.html)
 * [Accessing Accelerometer on Flash/Android 2.2 - example](http://www.mobilexweb.com/blog/android-froyo-html5-accelerometer-flash-player)
 * [PhoneGap accelerometer example](http://www.mobilexweb.com/samples/ball.html)
+
+###Videos
+* [Video: Google I/O 2012 - High Performance HTML5](http://www.youtube.com/watch?v=6EJ801el-I8)
+* [Video: Google I/O 2012 - Making Good Apps Great: More Advanced](http://www.youtube.com/watch?v=PwC1OlJo5VM)
+* [Video: Google I/O 2012 - Better Web App Development Through Tooling](http://www.youtube.com/watch?feature=player_embedded&v=Mk-tFn2Ix6g)
 
 
 ###HTML5 Demos
