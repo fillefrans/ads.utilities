@@ -7,8 +7,13 @@ Templates and support functions for Mobile ads/landing pages
 
 ##Mission
 
-To create a HTML5/CSS/JS template/scaffolding that can serve as a starting point for Ads and Landing Pages. Incorporate mobile optimized services accessible to creatives.
+To create a HTML5/CSS3/JS template/scaffolding that can serve as a starting point for Ads and Landing Pages. Incorporate mobile optimized client-side services accessible to creatives.
+
 Collect examples and demos in a git repository. Use shared assets where possible.
+
+
+###Rationale
+
 
 
 ##Use cases
@@ -27,7 +32,7 @@ Collect examples and demos in a git repository. Use shared assets where possible
 * If possible, generic access to a subset of native resources from JavaScript, such as accelerometer, camera, geolocation
 * Make allowances for future additions, i.e.
 * Easy to copy a template and start adapting it
-*
+
 
 
 ##Target Platforms
@@ -69,6 +74,7 @@ Collect examples and demos in a git repository. Use shared assets where possible
 ###jQuery Plugins
 * [jScroll: An iScroll Plugin for jQuery](http://teamddm.com/articles/jscroll-an-iscroll-plugin-for-jquery)
 * [blueimp jQuery File Uploader](https://github.com/blueimp/jQuery-File-Upload)
+* [10 Super useful jQuery plugins for responsive web design](http://www.catswhocode.com/blog/super-useful-jquery-plugins-for-responsive-web-design)
 
 ####Libraries
 * [Raphaël - SVG library](http://raphaeljs.com/)
@@ -114,6 +120,8 @@ We want to be able to extend this object for special functionality and custom ha
 * [More Bandwidth Doesn’t Matter (much)](http://www.belshe.com/2010/05/24/more-bandwidth-doesnt-matter-much/)
 * [Make your mobile pages render in under one second](http://calendar.perfplanet.com/2012/make-your-mobile-pages-render-in-under-one-second/)
 * [GoogleTechTalks - Speed Up Your JavaScript](http://www.youtube.com/watch?v=mHtdZgou0qU&feature=channel_page)
+* [Mastering HTML5 Prefetching](http://www.catswhocode.com/blog/mastering-html5-prefetching)
+
 
 
 ###Testing & debugging
@@ -155,7 +163,7 @@ We want to be able to extend this object for special functionality and custom ha
 
 
 ###Snippets
-####Detect mobile user agent with regex:
+####Detect mobile user agent with JS regex:
     var isMobile = /ip(hone|od|ad)|android|blackberry.*applewebkit|bb1\d.*mobile/i.test(navigator.userAgent);
 
 
@@ -170,6 +178,7 @@ We want to be able to extend this object for special functionality and custom ha
     for ( var i = 0; i < div.length; i++ ) {
         div[i].appendChild( fragment.cloneNode(true) );
     }
+
 
 
 ###Browser/device feature support
