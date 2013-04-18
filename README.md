@@ -12,14 +12,6 @@ To create a HTML5/CSS3/JS template/scaffolding that can serve as a starting poin
 Collect examples and demos in a git repository. Use shared assets where possible.
 
 
-###Rationale
-
-
-
-##Use cases
-
-?
-
 ---
 
 ##Requirements
@@ -70,15 +62,21 @@ Collect examples and demos in a git repository. Use shared assets where possible
 * [Vagrant](http://docs.vagrantup.com/v2/why-vagrant/index.html)
 
 
+###Frameworks
+* [Intel Application Framework](http://app-framework-software.intel.com/)
+
+
+####Libraries
+* [Raphaël - SVG library](http://raphaeljs.com/)
+* [Collie](http://colliejs.org/)
+* [Introducing Collie: A high-performance animation library for JavaScript](http://www.adobe.com/devnet/html5/articles/introducing-collie.html)
+
+
 
 ###jQuery Plugins
 * [jScroll: An iScroll Plugin for jQuery](http://teamddm.com/articles/jscroll-an-iscroll-plugin-for-jquery)
 * [blueimp jQuery File Uploader](https://github.com/blueimp/jQuery-File-Upload)
 * [10 Super useful jQuery plugins for responsive web design](http://www.catswhocode.com/blog/super-useful-jquery-plugins-for-responsive-web-design)
-
-####Libraries
-* [Raphaël - SVG library](http://raphaeljs.com/)
-
 
 
 ##Implementation
