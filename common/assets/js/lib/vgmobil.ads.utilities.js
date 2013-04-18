@@ -34,9 +34,10 @@ var VgAds = VgAds || {
   },
   events : {
     types : [
-      "ondeviceorientationchange",
-      "ononline",
-      "onoffline"
+      'ondeviceorientationchange',
+      'ononline',
+      'onoffline',
+      'onaccelerometer'
     ]
   },
   init = function(){
