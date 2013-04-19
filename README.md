@@ -96,6 +96,7 @@ We want to be able to extend this object for special functionality and custom ha
 ----------------------------
 ###Reading
 * [Accelerometer & Gyro Tutorial](http://www.instructables.com/id/Accelerometer-Gyro-Tutorial/)
+* [iOS/Android Device orientation (pitch, yaw, roll). Is it better with accelerometer or gyroscope?](http://stackoverflow.com/questions/9304160/ios-android-device-orientation-pitch-yaw-roll-is-it-better-with-acceleromet?rq=1)
 * [melonJS: Anatomy of a Game Object](http://blog.kodewerx.org/2013/04/melonjs-anatomy-of-game-object.html)
 * [blogwerx](http://blog.kodewerx.org/)
 * [MDN - Orientation and motion data explained](https://developer.mozilla.org/en-US/docs/DOM/Orientation_and_motion_data_explained)
