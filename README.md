@@ -56,15 +56,13 @@ Collect examples and demos in a git repository. Use shared assets where possible
 
 * [HTML5 Mobile Boilerplate](https://github.com/h5bp/mobile-boilerplate/tree/master/doc#mobile-boilerplate-documentation)
 * jQuery
-* jQuery Mobile
-* Wrapper scripts for native hardware access
+* [PhoneGap](http://phonegap.com/) for native hardware access
 * PHP
-* [Vagrant](http://docs.vagrantup.com/v2/why-vagrant/index.html)
 
 
 ###Frameworks
 * [Intel Application Framework](http://app-framework-software.intel.com/)
-
+* [MinPubSub - 198 byte pubsub micro-framework](https://github.com/daniellmb/MinPubSub)
 
 ####Libraries
 * [Raphaël - SVG library](http://raphaeljs.com/)
@@ -87,8 +85,7 @@ We want to be able to extend this object for special functionality and custom ha
 
 ###For speed and memory optimization, keep in mind:
 
-* Files larger than 32KB are not cached on iPhone
-* Don't define functions more than once
+* Files larger than 32KB are not cached on older iPhones
 * Avoid DOM manipulation as far as possible
 * avoid jQuery's built-in PubSub for high-frequency events, as it relies on the DOM for callbacks (and see also [this](http://jsperf.com/pubsubjs-vs-jquery-custom-events/37))
 
@@ -96,9 +93,15 @@ We want to be able to extend this object for special functionality and custom ha
 
 ##Resources
 ----------------------------
+###Reading
+* [Accelerometer & Gyro Tutorial](http://www.instructables.com/id/Accelerometer-Gyro-Tutorial/)
+* [melonJS: Anatomy of a Game Object](http://blog.kodewerx.org/2013/04/melonjs-anatomy-of-game-object.html)
+* [blogwerx](http://blog.kodewerx.org/)
+* [MDN - Orientation and motion data explained](https://developer.mozilla.org/en-US/docs/DOM/Orientation_and_motion_data_explained)
 
 
 ###Tools
+* [Remote debugging with Chrome Developer Tools](https://developers.google.com/chrome-developer-tools/docs/remote-debugging#remote-debugging)
 * [LiveReload - Chrome extension](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en)
 * [Google PageSpeed](https://developers.google.com/speed/pagespeed/)
 * [mod_pagespeed - Apache module for automatic mobile optimization](https://developers.google.com/speed/pagespeed/mod)
@@ -110,6 +113,8 @@ We want to be able to extend this object for special functionality and custom ha
 * [git-flow - A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model](https://github.com/nvie/gitflow)
 * [jsPerf — JavaScript performance playground](http://jsperf.com/)
 * [Chocolatey - a package manager for Windows](http://chocolatey.org/)
+
+
 
 
 ###Reports & best practices

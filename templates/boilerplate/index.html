@@ -9,6 +9,17 @@
 
 
 
-<script type="text/javascript"></script>
+<script type="text/javascript">
+
+function handleEvent(event) {
+    var x = event.beta;
+    var y = event.gamma;
+    console.log(event);
+//    window.console && console.info('Raw Position: x, y: ', x, y);
+}
+
+window.addEventListener("deviceorientation", handleEvent, true);
+
+</script>
 </body>
 </html>
