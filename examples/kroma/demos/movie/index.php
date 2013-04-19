@@ -7,7 +7,7 @@
   <meta charset="utf-8">
 
   <title>Kroma demos</title>
-  
+
   <!-- Metatags
   ================================================== -->
   <meta name="keywords" content="">
@@ -15,7 +15,7 @@
   <meta name="author" content="Kroma AS">
   <meta name="web_author" content="Kroma AS">
   <meta name="copyright" content="Copyright 2012. All Rights Reserved.">
-  
+
   <!-- Dublin Core Metadata -->
   <meta name="DC.title" content="Project Name">
   <meta name="DC.subject" content="What you're about.">
@@ -40,10 +40,10 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <script>(function(){var a;if(navigator.platform==="iPad"){a=window.orientation!==90||window.orientation===-90?"img/startup-tablet-landscape.png":"img/startup-tablet-portrait.png"}else{a=window.devicePixelRatio===2?"img/startup-retina.png":"img/startup.png"}document.write('<link rel="apple-touch-startup-image" href="'+a+'"/>')})()</script>
-  
+
   <!-- The script prevents links from opening in mobile safari. https://gist.github.com/1042026 -->
   <!--<script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>-->
-  
+
   <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
   <meta http-equiv="cleartype" content="on">
 
@@ -94,9 +94,9 @@
   MAIN PAGE
 ==========================================================================
 -->
-	
+
   <div id="mainpage" data-role="page">
-  
+
   	<div class="header">
   		<div class="inner">
   			<header>
@@ -110,19 +110,19 @@
     <div class="maincontent">
       <div class="inner">
         <article class="content">
-        
+
           <!-- The video can be maximum size or 640px -->
           <video poster="img/gfx/video.png" preload="none" controls>
           	<source src="video/trailer.mp4" type="video/mp4" />
-          	<source src="video/trailer.webm" type="video/webm" />
-            <source src="video/trailer.ogv" type="video/ogg" />
-        	Your browser does not support the video tag.
+          	<source src="video/trailer.ogv" type="video/ogg" />
+        	<source src="video/trailer.webm" type="video/webm" />
+            Your browser does not support the video tag.
           </video>
-          
+
         </article>
       </div>
     </div>
-    
+
     <footer class="links">
     	<div class="inner">
             <nav>
@@ -131,17 +131,17 @@
             </nav>
         </div>
     </footer>
-    
+
 	<!--  Go back to demo overview  -->
     <?php include('../../inc/getcookie.php'); ?>
-    
+
   </div>
 <!-- end Main page -->
 
 	<!-- <script src="js/main.js"></script> -->
 	<!-- Checks if there are high resulution images available with the "@2" Apple's selector -->
 	<script src="js/retina.js"></script>
-	
+
 	<!-- Stuff needed for the full background (use the retina version of a image) -->
 	<script src="modules/fullscreenbg/jquery.backstretch.min.js"></script>
 	<script>

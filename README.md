@@ -66,6 +66,7 @@ Collect examples and demos in a git repository. Use shared assets where possible
 
 ####Libraries
 * [Raphaël - SVG library](http://raphaeljs.com/)
+* [howler.js - Modern Web Audio Javascript Library](http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library)
 * [Collie](http://colliejs.org/)
 * [Introducing Collie: A high-performance animation library for JavaScript](http://www.adobe.com/devnet/html5/articles/introducing-collie.html)
 
