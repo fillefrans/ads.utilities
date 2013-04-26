@@ -63,16 +63,23 @@ Collect examples and demos in a git repository. Use shared assets where possible
 ###Frameworks
 * [Intel Application Framework](http://app-framework-software.intel.com/)
 * [MinPubSub - 198 byte pubsub micro-framework](https://github.com/daniellmb/MinPubSub)
+* [PhoneGap / Cordova](http://phonegap.com/)
 
-####Libraries
+####Client Libraries
+* [ImpactJS](http://impactjs.com/)
+* [Impact++](https://github.com/collinhover/impactplusplus)
 * [Raphaël - SVG library](http://raphaeljs.com/)
 * [howler.js - Modern Web Audio Javascript Library](http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library)
 * [Collie](http://colliejs.org/)
 * [Introducing Collie: A high-performance animation library for JavaScript](http://www.adobe.com/devnet/html5/articles/introducing-collie.html)
+* jQuery
+#
+###Server libraries
+* [ApnsPHP: Apple Push Notification & Feedback Provider](https://github.com/duccio/ApnsPHP)
 
 
-
-###jQuery Plugins
+### Plugins
+* [Push Notification Plugin for iOS and Android](https://github.com/phonegap-build/PushPlugin)
 * [jScroll: An iScroll Plugin for jQuery](http://teamddm.com/articles/jscroll-an-iscroll-plugin-for-jquery)
 * [blueimp jQuery File Uploader](https://github.com/blueimp/jQuery-File-Upload)
 * [10 Super useful jQuery plugins for responsive web design](http://www.catswhocode.com/blog/super-useful-jquery-plugins-for-responsive-web-design)
@@ -94,7 +101,18 @@ We want to be able to extend this object for special functionality and custom ha
 
 ##Resources
 ----------------------------
+* [Game Content Resources](http://content.gpwiki.org/index.php/Game_Content_Resources)
+* [ImpactJS Font Tool](http://impactjs.com/font-tool/)
+* [Open Game Art](http://opengameart.org/art-search?keys=icon&page=1)
+* [Volumetric Sprites](http://gushh.net/blog/gamedev-resources/volumetric-sprites/)
+
+###HTML5 Game Engines, &c
+* [Clay.io/](http://clay.io/)
+* []
+
+
 ###Reading
+* [Android Push Notifications with PhoneGap](http://www.adobe.com/devnet/phonegap/articles/android-push-notifications-with-phonegap.html)
 * [Accelerometer & Gyro Tutorial](http://www.instructables.com/id/Accelerometer-Gyro-Tutorial/)
 * [iOS/Android Device orientation (pitch, yaw, roll). Is it better with accelerometer or gyroscope?](http://stackoverflow.com/questions/9304160/ios-android-device-orientation-pitch-yaw-roll-is-it-better-with-acceleromet?rq=1)
 * [melonJS: Anatomy of a Game Object](http://blog.kodewerx.org/2013/04/melonjs-anatomy-of-game-object.html)

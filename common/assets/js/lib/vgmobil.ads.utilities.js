@@ -9,8 +9,11 @@
  */
 
 
-var VgAds = VgAds || {
-  system : {
+  var VgAds = VgAds || {};
+
+  VgAds.plugins = {};
+  
+  VgAds.system = {
     isTablet : null,
     isHandset : null,
     connectionType: navigator.connection.type,
@@ -31,16 +34,25 @@ var VgAds = VgAds || {
         }
       }
     }
-  },
-  events : {
+  };
+
+
+  VgAds.events = {
     types : [
       'ondeviceorientationchange',
       'ononline',
       'onoffline',
-      'onaccelerometer'
+      'onaccelerometer',
+      'onvisible',
+      'ontouchtop',
+      'ontouchleft',
+      'ontouchright',
+      'ontouchbotton',
+      'onvisibilitychange'
     ]
-  },
-  init = function(){
+  };
+
+  VgAds.init = function(){
 
   }
 
